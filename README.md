@@ -1,1 +1,1 @@
-# so1_actividades_201901604
+# Actividades Sistemas Operativos 201901604
