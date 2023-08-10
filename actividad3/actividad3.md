@@ -68,8 +68,8 @@ ls -ltrh
 
 7. Comprobación de Acceso: Intenta acceder al `archivo1.txt` y `directorio1/archivo2.txt` como `usuario2`. Nota cómo el permiso de directorio afecta el acceso a los archivos dentro de él.
 >su usuario2
-cat ~usuario1/archivo1.txt
-cat ~usuario1/directorio1/archivo2.txt
+cat /home/usuario1/archivo1.txt
+cat /home/usuario1/directorio1/archivo2.txt
 
 8. Verificación Final: Verifica los permisos y propietario de los archivos y directorio nuevamente con `ls -l` y `ls -ld`.
 >ls -l ~usuario1/archivo1.txt
