@@ -1,0 +1,9 @@
+[Unit]
+Description=Script para imprimir saludo y fecha actual
+
+[Service]
+Type=simple
+ExecStart=/home/belenco/Documentos/GitHub/so1_actividades_201901604/actividad4/saludo.sh
+
+[Install]
+WantedBy=multi-user.target
